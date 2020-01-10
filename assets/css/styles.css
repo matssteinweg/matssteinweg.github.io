@@ -1,0 +1,21 @@
+.navbar.navbar-light.navbar-expand-md.navigation-clean {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(57,57,57);
+}
+
+#project_column {
+  margin: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: small;
+  /*box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.39);*/
+}
+
+#project_image {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+

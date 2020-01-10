@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html style="width: 100vw;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="d-flex flex-column align-items-center align-self-center" style="width: 100vw;">
+    <nav class="navbar navbar-light navbar-expand-md sticky-top d-flex navigation-clean" style="width: 100vw;height: 10vh;padding: 0px 0px 0px;">
+        <div class="container"><a class="navbar-brand" href="index.html#home" style="font-family: 'Open Sans', sans-serif;color: rgb(0,0,0);font-weight: normal;padding: 8px 18px;">Mats Steinweg</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1" style="color: rgb(0,0,0);">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#home" style="color: rgb(0,0,0);font-family: 'Open Sans', sans-serif;">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#biography" style="color: rgb(0,0,0);font-family: 'Open Sans', sans-serif;">Biography</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#projects" style="color: rgb(0,0,0);font-family: 'Open Sans', sans-serif;">Projects</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="flex-column align-items-center" style="width: 100vw;height: 15vh;margin-top: 2.5vh;">
+        <h1 class="text-center" style="font-family: 'Open Sans', sans-serif;">Localization and Mapping</h1>
+        <hr id="hr_projects" style="background-color: black;height: 1px;">
+    </div>
+    <div class="d-flex flex-column justify-content-center align-items-center align-content-center" style="width: 100vw;">
+        <a target="_blank" style="color: black;text-decoration: none;">
+            <div class="d-flex justify-content-center align-items-center align-content-center" id="project_item" style="width: 90vw;margin-top: 5vh;margin-bottom: 5vh;background-color: rgba(255,255,255,0);height: 60vh;/*border-style: solid;*//*border-width: 1px;*//*border-radius: 10px;*/">
+                <div class="d-flex justify-content-center align-items-center" style="width: 25w;height: 60vh;margin-right: 2.5vw;margin-left: 5vw;"><img src="assets/img/projects_11.svg" style="width: 300px;border-style: solid;border-width: 2px;border-color: black;border-radius: 10px;"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center align-content-center" style="width: 50vw;height: 50vh;margin-left: 2.5vw;margin-right: 5vw;">
+                    <h2 class="text-center" style="color: rgb(0,0,0);">FastSLAM for Occupancy Grid Maps</h2>
+                    <h4>with Rao-Blackwellized Particle Filters</h4>
+                    <p class="text-center" style="width: 50vw;">Using Rao-Blackwellized particle filters to solve the Simultaneous Localization and Mapping problem, an estimate of the robot's surroundings is computed from a number of particles, each carying an individual map. This repository implements
+                        a SLAM simulation for a differential-drive robot using Occupancy Grid Maps and laser range measurements.</p>
+                    <p class="text-center" style="width: 30vw;"><strong>Keywords: C++, Localization, Mapping, Particle Filter, Probabilistic Robotics</strong></p>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/matssteinweg/EKF-Localization-Simulator" target="_blank" style="color: black;text-decoration: none;">
+            <div class="d-flex justify-content-center align-items-center align-content-center" id="project_item" style="width: 90vw;margin-top: 5vh;margin-bottom: 5vh;background-color: rgba(255,255,255,0);height: 60vh;/*border-style: solid;*//*border-width: 1px;*//*border-radius: 10px;*/">
+                <div class="d-flex justify-content-center align-items-center" style="width: 25w;height: 60vh;margin-right: 2.5vw;margin-left: 5vw;"><img src="assets/img/projects_12.svg" style="width: 300px;border-style: solid;border-width: 2px;border-color: black;border-radius: 10px;"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center align-content-center" style="width: 50vw;height: 50vh;margin-left: 2.5vw;margin-right: 5vw;">
+                    <h2 style="color: rgb(0,0,0);">EKF Localization</h2>
+                    <h4>Educational Tool</h4>
+                    <p class="text-center" style="width: 50vw;">The Extended Kalman Filter (EKF) allows for robot localization based on non-linear motion and observation models. This project implements a simulation environment including a Graphical User Interface, developed as an educational tool
+                        for the course <a href="https://www.kth.se/student/kurser/kurs/EL2320?l=en" style="color: rgb(122,123,123);" target="_blank">Applied Estimation</a>&nbsp;at KTH Royal Institute of Technology.</p>
+                    <p class="text-center" style="width: 30vw;"><strong>Keywords: MATLAB, Extended Kalman Filter, Odometry, Landmarks, Probabilistic Robotics</strong></p>
+                </div>
+            </div>
+        </a>
+        <a href="https://github.com/matssteinweg/MonteCarloLocalization-Simulator" target="_blank" style="color: black;text-decoration: none;">
+            <div class="d-flex justify-content-center align-items-center align-content-center" id="project_item" style="width: 90vw;margin-top: 5vh;margin-bottom: 10vh;background-color: rgba(255,255,255,0);height: 60vh;/*border-style: solid;*//*border-width: 1px;*//*border-radius: 10px;*/">
+                <div class="d-flex justify-content-center align-items-center" style="width: 25w;height: 60vh;margin-right: 2.5vw;margin-left: 5vw;"><img src="assets/img/projects_13.svg" style="width: 300px;border-style: solid;border-width: 2px;border-color: black;border-radius: 10px;"></div>
+                <div class="d-flex flex-column justify-content-center align-items-center align-content-center" style="width: 50vw;height: 50vh;margin-left: 2.5vw;margin-right: 5vw;">
+                    <h2 style="color: rgb(0,0,0);">Monte Carlo Localization</h2>
+                    <h4>Educational Tool</h4>
+                    <p class="text-center" style="width: 50vw;">The particle filter is an efficient algorithm for non-parametric state estimation which can be used for global robot localization. This project implements a simulation environment including a Graphical User Interface, developed as
+                        an educational tool for the course <a href="https://www.kth.se/student/kurser/kurs/EL2320?l=en" style="color: rgb(122,123,123);" target="_blank">Applied Estimation</a>&nbsp;at KTH Royal Institute of Technology.</p>
+                    <p class="text-center"
+                        style="width: 30vw;"><strong>Keywords: MATLAB, Particle Filter, Odometry, Landmarks, Probabilistic Robotics</strong><br></p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
