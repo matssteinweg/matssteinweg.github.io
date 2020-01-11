@@ -1,0 +1,22 @@
+----------
+
+Fri Jan 10 2020 22:48:20 GMT+0100 (CET)
+
+error: RPC failed; curl 56 LibreSSL SSL_read: SSL_ERROR_SYSCALL, errno 60
+fatal: the remote end hung up unexpectedly
+
+
+----------
+
+Fri Jan 10 2020 22:48:20 GMT+0100 (CET)
+
+fatal: the remote end hung up unexpectedly
+
+
+----------
+
+Fri Jan 10 2020 22:48:20 GMT+0100 (CET)
+
+Everything up-to-date
+
+
