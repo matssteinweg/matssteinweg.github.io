@@ -62,3 +62,9 @@
   box-shadow: 0 0.3rem 1rem rgba(0,0,0,.475)!important;
 }
 
+@media (max-width: 360px) {
+  #subtitle {
+    font-size: x-large;
+  }
+}
+
