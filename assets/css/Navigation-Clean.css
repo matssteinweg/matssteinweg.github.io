@@ -1,12 +1,14 @@
-.navigation-clean {
-  background: #fff;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  color: #333;
-  border-radius: 0;
-  box-shadow: none;
-  border: none;
-  margin-bottom: 0;
+@media (min-width: 768px) {
+  .navigation-clean {
+    background: #fff;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #333;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width:768px) {
@@ -14,11 +16,6 @@
     padding-top: 1rem;
     /*padding-bottom: 1rem;*/
   }
-}
-
-.navigation-clean .navbar-brand {
-  font-weight: bold;
-  color: inherit;
 }
 
 .navigation-clean .navbar-brand:hover {
@@ -208,5 +205,45 @@ hr {
   display: block;
   padding-top: 10vh;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  #Navbar {
+    width: 100vw;
+    height: 10vh;
+    padding: 0px 0px 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #Navigation_Title {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0,0,0);
+    font-weight: normal;
+    padding: 8px 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  #Navigation_Title {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0,0,0);
+    font-size: 0px;
+    padding: 8px 18px;
+  }
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(0,0,0,.9);
+}
+
+@media (min-width: 768px) {
+  #home {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px 0px 0px;
+    padding-top: 10vh;
+  }
 }
 

@@ -64,9 +64,12 @@
 
 @media (max-width: 360px) {
   #subtitle {
+    color: rgb(110, 110, 110);
+    font-family: 'Open Sans';
     font-size: x-large;
     height: 10vh;
     margin-bottom: 0vh;
+    margin-top: 2vh;
   }
 }
 
