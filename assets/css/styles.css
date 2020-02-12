@@ -176,7 +176,7 @@ body {
   }
 }
 
-@media (min-width:1100px) {
+@media (min-width:768px) {
   .navbar-expand-md {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
@@ -185,7 +185,7 @@ body {
   }
 }
 
-@media (min-width:1100px) {
+@media (min-width:768px) {
   .navbar-expand-md .navbar-collapse {
     display: -ms-flexbox!important;
     display: flex!important;
@@ -194,14 +194,14 @@ body {
   }
 }
 
-@media (min-width:1100px) {
+@media (min-width:768px) {
   .navbar-expand-md .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: row;
   }
 }
 
-@media (min-width:1100px) {
+@media (min-width:768px) {
   .navbar-expand-md > .container, .navbar-expand-md > .container-fluid {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
