@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navigation-clean {
     background: #fff;
     padding-top: .75rem;
@@ -11,7 +11,7 @@
   }
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
   .navigation-clean {
     padding-top: 1rem;
     /*padding-bottom: 1rem;*/
@@ -201,7 +201,7 @@ hr {
   display: block;
 }
 
-@media (min-width: 577px) {
+@media (min-width: 1200px) {
   .anchor {
     display: block;
     padding-top: 10vh;
@@ -209,7 +209,7 @@ hr {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   #Navbar {
     width: 100vw;
     height: 10vh;
@@ -239,7 +239,7 @@ hr {
   color: rgba(0,0,0,.9);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1199px) {
   #home {
     font-family: 'Open Sans', sans-serif;
     height: 110vh;
