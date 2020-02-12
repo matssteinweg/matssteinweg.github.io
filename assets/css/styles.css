@@ -32,37 +32,37 @@ body {
   background-color: #fff;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #biography {
     height: 100vh;
     width: 100vw;
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #biography {
     height: 160vh;
     width: 100vw;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #Logos {
     width: 80vw;
     height: 50vh;
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #Logos {
     width: 80vw;
     height: 80vh;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #Bio-Text {
-    width: 50vw;
+    width: 80vw;
     height: 15vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -70,20 +70,20 @@ body {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #Bio-Text {
     width: 80vw;
-    height: 50vh;
+    height: 40vw;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    margin-top: 5vh;
+    /*margin-top: 5vh;*/
     align-items: center;
     justify-content: center;
     align-content: center;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #bio_paragraph {
     width: 50vw;
     height: 20vh;
@@ -93,10 +93,10 @@ body {
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #bio_paragraph {
     width: 80vw;
-    height: 50vh;
+    height: 40vw;
     padding-right: 20px;
     padding-left: 20px;
     color: rgb(0,0,0);
@@ -107,27 +107,27 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #Logo_Text_Container {
     width: 100vw;
     height: 85vh;
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #Logo_Text_Container {
     width: 100vw;
     height: 160vh;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #Biography_Heading {
     height: 15vh;
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #Biography_Heading {
     height: 15vh;
     padding-top: 5vh;
