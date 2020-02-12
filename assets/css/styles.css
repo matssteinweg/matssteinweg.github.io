@@ -41,7 +41,7 @@ body {
 
 @media (max-width: 768px) {
   #biography {
-    height: 155vh;
+    height: 160vh;
     width: 100vw;
   }
 }
@@ -110,7 +110,20 @@ body {
 @media (max-width: 768px) {
   #Logo_Text_Container {
     width: 100vw;
-    height: 155vh;
+    height: 160vh;
+  }
+}
+
+@media (min-width: 769px) {
+  #Biography_Heading {
+    height: 15vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #Biography_Heading {
+    height: 15vh;
+    padding-top: 5vh;
   }
 }
 

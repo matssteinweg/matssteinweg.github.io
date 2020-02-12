@@ -239,13 +239,12 @@ hr {
   color: rgba(0,0,0,.9);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #home {
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
     width: 100vw;
     padding: 0px 0px 0px;
-    padding-top: 10vh;
   }
 }
 
