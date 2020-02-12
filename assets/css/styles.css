@@ -73,10 +73,13 @@ body {
 @media (max-width: 768px) {
   #Bio-Text {
     width: 80vw;
-    height: 60vh;
+    height: 50vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     margin-top: 5vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   }
 }
 
@@ -97,6 +100,10 @@ body {
     padding-right: 20px;
     padding-left: 20px;
     color: rgb(0,0,0);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
 }
 
@@ -124,6 +131,48 @@ body {
   #Biography_Heading {
     height: 15vh;
     padding-top: 5vh;
+  }
+}
+
+@media (min-width: 769px) {
+  #projects {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #projects {
+    height: 150vh;
+    width: 100vw;
+  }
+}
+
+@media (min-width: 769px) {
+  #Project_Div {
+    width: 100vw;
+    height: 70vh;
+    margin-bottom: 5vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #Project_Div {
+    width: 100vw;
+    height: 250vh;
+    margin-bottom: 5vh;
+  }
+}
+
+@media (min-width: 769px) {
+  #project_image {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  #project_image {
+    width: 150px;
   }
 }
 
