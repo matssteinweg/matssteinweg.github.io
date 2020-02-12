@@ -201,10 +201,12 @@ hr {
   display: block;
 }
 
-.anchor {
-  display: block;
-  padding-top: 10vh;
-  position: relative;
+@media (min-width: 769px) {
+  .anchor {
+    display: block;
+    padding-top: 10vh;
+    position: relative;
+  }
 }
 
 @media (min-width: 768px) {
