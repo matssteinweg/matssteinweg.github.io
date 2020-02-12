@@ -201,7 +201,7 @@ hr {
   display: block;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .anchor {
     display: block;
     padding-top: 10vh;
@@ -239,7 +239,7 @@ hr {
   color: rgba(0,0,0,.9);
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #home {
     font-family: 'Open Sans', sans-serif;
     height: 110vh;

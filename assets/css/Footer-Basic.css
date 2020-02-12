@@ -62,7 +62,7 @@
   box-shadow: 0 0.3rem 1rem rgba(0,0,0,.475)!important;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #subtitle {
     color: rgb(110, 110, 110);
     font-family: 'Open Sans';
@@ -73,7 +73,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #subtitle {
     color: rgb(110,110,110);
     font-family: 'Open Sans', sans-serif;
@@ -82,7 +82,7 @@
   }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 767px) {
   #Icons {
     margin: 0px 0px 0px 0px;
     margin-top: 5vh;
@@ -91,7 +91,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #Icons {
     margin: 0px 0px 0px 0px;
     margin-top: 5vh;
