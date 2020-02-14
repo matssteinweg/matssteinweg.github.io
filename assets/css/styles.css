@@ -39,21 +39,21 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   #Logos {
     width: 80vw;
     height: 50vh;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 999px) {
   #Logos {
     width: 100vw;
     height: 50vh;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   #Bio-Text {
     width: 80vw;
     height: 15vh;
@@ -63,7 +63,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 999px) {
   #Bio-Text {
     width: 80vw;
     height: 40vh;
@@ -76,7 +76,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   #bio_paragraph {
     width: 50vw;
     height: 20vh;
@@ -86,7 +86,7 @@ body {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 999px) {
   #bio_paragraph {
     width: 80vw;
     height: 30vh;
@@ -239,7 +239,7 @@ p {
   margin-bottom: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   #Logo_Container {
     width: 25vw;
     height: 40vh;
@@ -247,7 +247,7 @@ p {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 999px) {
   #Logo_Container {
     width: 40vw;
     height: 40vh;
