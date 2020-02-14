@@ -222,3 +222,19 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  #photo {
+    margin: 5vh;
+    width: 40vh;
+    height: 40vh;
+  }
+}
+
+@media (max-width: 767px) {
+  #photo {
+    margin: 10vh;
+    width: 40vh;
+    height: 40vh;
+  }
+}
+

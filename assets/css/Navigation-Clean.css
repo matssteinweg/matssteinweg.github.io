@@ -242,7 +242,7 @@ hr {
 @media (max-width: 767px) {
   #home {
     font-family: 'Open Sans', sans-serif;
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     padding: 0px 0px 0px;
   }
