@@ -268,7 +268,14 @@ p {
 
 @media (max-width: 999px) {
   #Project_Link {
-    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
   }
 }
 
