@@ -127,21 +127,21 @@ body {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #projects {
     height: 100vh;
     width: 100vw;
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1199px) {
   #projects {
     height: 200vh;
     width: 100vw;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #Project_Div {
     width: 100vw;
     height: 65vh;
@@ -150,7 +150,7 @@ body {
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1199px) {
   #Project_Div {
     width: 100vw;
     height: 180vh;
@@ -203,14 +203,14 @@ body {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   #Project_Container {
     width: 100vw;
     height: 150vh;
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1199px) {
   #Project_Container {
     width: 100vw;
     height: 200vh;
@@ -257,7 +257,7 @@ p {
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1199px) {
   #Project_Item {
     margin: 3vw;
     padding: 15px;
