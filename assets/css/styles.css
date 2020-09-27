@@ -16,7 +16,6 @@
 
 #biography {
   height: 100vh;
-  background-color: red;
 }
 
 #Logos {
@@ -76,7 +75,6 @@
 
 #projects {
   height: 100vh;
-  background-color: blue;
 }
 
 @media (min-width: 1200px) {
@@ -164,6 +162,7 @@ p {
 #body {
   width: 100vw;
   align-self: center!important;
+  background-color: #EBEDEF;
 }
 
 @media (min-width: 600px) {
@@ -251,7 +250,7 @@ p {
 
 @media (max-width: 767px) {
   #Project_Item {
-    height: 20vh;
+    height: 25vh;
   }
 }
 
@@ -282,7 +281,31 @@ p {
 
 @media (min-width: 1200px) {
   #Project_Div {
-    width: 1202px;
+    width: 1200px;
+  }
+}
+
+@media (max-width: 767px) {
+  #Biography_Heading {
+    margin-top: 5vh;
+  }
+}
+
+#Biography_Content {
+  height: 70vh;
+  padding-bottom: 5vh;
+}
+
+@media (max-width: 767px) {
+  #Biography_Content {
+    height: 80vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  #Project_Item {
+    width: 400px;
+    height: 400px;
   }
 }
 

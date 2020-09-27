@@ -1,8 +1,5 @@
 @media (min-width: 768px) {
   .navigation-clean {
-    background: #fff;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
     color: #333;
     border-radius: 0;
     box-shadow: none;
@@ -194,7 +191,6 @@ hr {
 #Navbar {
   height: 10vh;
   padding: 0px 0px 0px;
-  background-color: grey;
 }
 
 @media (min-width: 768px) {
@@ -224,6 +220,5 @@ hr {
   height: 100vh;
   width: 100vw;
   padding: 0px 0px 0px;
-  background-color: #D6DBDF;
 }
 
