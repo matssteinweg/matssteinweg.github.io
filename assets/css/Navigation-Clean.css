@@ -14,7 +14,6 @@
 @media (min-width:768px) {
   .navigation-clean {
     padding-top: 1rem;
-    /*padding-bottom: 1rem;*/
   }
 }
 
@@ -158,21 +157,12 @@
   }
 }
 
-#photo {
-  margin: 20px;
-  width: 250px;
-  height: 250px;
-}
-
 #logo_column {
   margin: 10px;
 }
 
 hr {
   width: 200px;
-}
-
-#projects {
 }
 
 #photo_large {
@@ -201,20 +191,10 @@ hr {
   display: block;
 }
 
-@media (min-width: 768px) {
-  .anchor {
-    display: block;
-    padding-top: 10vh;
-    position: relative;
-  }
-}
-
-@media (min-width: 768px) {
-  #Navbar {
-    width: 100vw;
-    height: 10vh;
-    padding: 0px 0px 0px;
-  }
+#Navbar {
+  height: 10vh;
+  padding: 0px 0px 0px;
+  background-color: grey;
 }
 
 @media (min-width: 768px) {
@@ -239,12 +219,11 @@ hr {
   color: rgba(0,0,0,.9);
 }
 
-@media (max-width: 767px) {
-  #home {
-    font-family: 'Open Sans', sans-serif;
-    height: 100vh;
-    width: 100vw;
-    padding: 0px 0px 0px;
-  }
+#home {
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  padding: 0px 0px 0px;
+  background-color: #D6DBDF;
 }
 
